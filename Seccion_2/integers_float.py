@@ -8,3 +8,8 @@ mi_numero2 = 4.2; #tipo float
 print(mi_numero2);
 print(type(mi_numero2));
 
+edad = input("Introduce tu edad ");
+print("tu edad es "+edad);
+
+
+
