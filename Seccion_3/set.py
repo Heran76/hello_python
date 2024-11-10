@@ -69,3 +69,4 @@ print(mi_set3)
 # utilizando métodos de sets.
 
 sorteo = {"Camila", "Margarita", "Axel", "Jorge", "Miguel", "Mónica"}
+print(sorteo.pop())
