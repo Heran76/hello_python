@@ -13,10 +13,10 @@ Verifica si num1 es mayor que num2, y menor que num3. Almacena el
 resultado de dicha comparación en una variable llamada mi_bool
 
 '''
-num1 = 36
-num2 = 72/2
-num3 = 48
-mi_bool = num1 > num2 and num1 < num3
+num11 = 36
+num22 = 72/2
+num33 = 48
+mi_bool = num11 > num22 and num11 < num33
 print(mi_bool)
  
 '''
