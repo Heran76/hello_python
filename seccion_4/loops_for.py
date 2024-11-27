@@ -28,3 +28,17 @@ for i in nombres1:
     if i.startswith('A'):
         print(i)
         
+print("*****[ Ejercicios ]*****")
+
+'''
+Práctica Loop For 1
+Utilizando loops For, saluda a todos los miembros de una clase, imprimiendo "Hola" + su nombre.
+
+Por ejemplo: "Hola María"
+
+alumnos_clase = ["María", "José", "Carlos", "Martina", "Isabel", "Tomás", "Daniela"]
+'''
+alumnos_clase = ["María", "José", "Carlos", "Martina", "Isabel", "Tomás", "Daniela"]
+
+for i in alumnos_clase:
+    print("Hola "+ i)
