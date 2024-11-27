@@ -13,9 +13,18 @@ for letra in lista:
 print(" ")
 print("***********")
 print(" ")
-print("Recorer con indice")
-lista1 = ['a','b','c','d','e']
+print("Recorrer con indice")
+lista1 = ["A","B","C","D"]
 for i in lista1:
-    numero_letra = lista1.index(i) + 1
-    print(f"letra {numero_letra} : {i}")
-    
+    numero_lista = lista1.index(i) + 1
+    print(f"La letra {numero_lista} : {i}")
+print(" ")
+print("***********")
+print(" ")
+print("Ejercicio que recorra con la primera letra del un nombre")
+
+nombres1 = ["Antonio","Marcos","Maria","Angela"]
+for i in nombres1:
+    if i.startswith('A'):
+        print(i)
+        
