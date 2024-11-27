@@ -52,3 +52,29 @@ suma_numeros = 0
 for numero in lista_numeros:
     suma_numeros += numero
 print("La suma de los números es:", suma_numeros)
+'''
+Práctica Loop For 3
+Dada la siguiente lista de números, realiza la suma de todos los números pares e impares* por separado en las variables suma_pares y suma_impares respectivamente:
+
+lista_numeros = [1,5,8,7,6,8,2,5,2,6,4,8,5,9,8,3,5,4,2,5,6,4]
+
+*Recordando de los días anteriores: el módulo (o resto) de un número dividido 2 es cero cuando dicho valor es par, y 1 cuando es impar
+
+num % 2 == 0 (valores pares)
+
+num % 2 == 1 (valores impares)
+'''
+lista_numeros = [1, 5, 8, 7, 6, 8, 2, 5, 2, 6, 4, 8, 5, 9, 8, 3, 5, 4, 2, 5, 6, 4]
+suma_pares = 0
+suma_impares = 0
+
+# Solo un bucle para recorrer la lista
+for num in lista_numeros:
+    if num % 2 == 0:  # Verificamos si el número es par
+        suma_pares += num
+    else:             # Si no es par, es impar
+        suma_impares += num
+
+# Imprimir los resultados
+print("La suma de los números pares es:", suma_pares)
+print("La suma de los números impares es:", suma_impares)
