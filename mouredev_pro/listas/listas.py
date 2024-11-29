@@ -29,3 +29,11 @@ print(my_list3)
 my_list4 = [10,20,30,30,40,50]
 my_list4.remove(30)
 print(my_list4)
+
+#6 Usa la función pop() para eliminar el último elemento de la lista [1,2,3,4,5] y almacena en una varialbe. Imprime la variable y la lista
+my_lista5 = [1,2,3,4,5]
+last_element = my_list.pop()
+print(my_lista5)
+print(last_element)
+
+
