@@ -36,4 +36,8 @@ last_element = my_list.pop()
 print(my_lista5)
 print(last_element)
 
+#Invierte la lista [100, 200, 300, 400, 500] e imprimela
+my_lista7 = [100, 200, 300, 400, 500]
+my_lista7.reverse()
+print(my_lista7)
 
