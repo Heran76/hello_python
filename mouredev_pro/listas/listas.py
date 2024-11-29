@@ -36,8 +36,21 @@ last_element = my_list.pop()
 print(my_lista5)
 print(last_element)
 
-#Invierte la lista [100, 200, 300, 400, 500] e imprimela
+# 7 Invierte la lista [100, 200, 300, 400, 500] e imprimela
 my_lista7 = [100, 200, 300, 400, 500]
 my_lista7.reverse()
 print(my_lista7)
+
+# 8 Ordena la lista [3,1,4,2,5] en orden ascendente e imprela
+my_lista8 = [3,1,4,2,5]
+my_lista8.sort()
+print(my_lista8)
+
+# 9 concatena las lista [1, 2, 3] y [4,5,6] y almacena el resultado en una nueva lista, Imprime la lista resultante.
+my_lista9 = [1,2,3]
+my_lista10 = [4,5,6]
+new_lista = my_lista9 + my_lista10
+print(new_lista)
+
+
 
