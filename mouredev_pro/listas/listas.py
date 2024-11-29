@@ -24,3 +24,8 @@ print(my_list2)
 my_list3 = [10,20,30,40,50]
 my_list3.insert(2,15)
 print(my_list3)
+
+#5 elimina el primer valor 30 de la lista [10,20,30,40,50]
+my_list4 = [10,20,30,30,40,50]
+my_list4.remove(30)
+print(my_list4)
