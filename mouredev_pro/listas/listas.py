@@ -53,4 +53,10 @@ new_lista = my_lista9 + my_lista10
 print(new_lista)
 
 
+#10 Crea una sublista con los elementos de la lista [10,20,30,40,50] que van desde la posición 1 hasta la 3 (sin incluir la posición 3)
+my_lista11 = [10,20,30,40,50]
+sub_lista = my_lista11[1:3]
+print(sub_lista)
+
+
 
