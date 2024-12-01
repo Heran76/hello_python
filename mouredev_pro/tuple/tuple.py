@@ -26,7 +26,11 @@ my_tuple9 = (10, 20, 30, 40, 50)
 my_subtuple = my_tuple9[2:4]
 print(my_subtuple)
 # 8. Convierte la tupla ("rojo", "verde", "azul") en una lista, cambia el segundo elemento a "amarillo" y vuelve a convertirla en una tupla. Imprime la tupla resultante.
-
+my_tuple = ("rojo", "verde", "azul")
+my_list = list(my_tuple)
+my_list[1] = "amarillo"
+my_modified_tuple = tuple(my_list)
+print(my_modified_tuple)
 # 9. Elimina una tupla llamada my_tuple usando del y luego intenta imprimirla para ver el resultado.
 
 # 10. Crea una tupla con un solo elemento (el nÃºmero 100) e imprÃ­mela. AsegÃºrate de usar la sintaxis correcta para crear una tupla con un solo elemento.
