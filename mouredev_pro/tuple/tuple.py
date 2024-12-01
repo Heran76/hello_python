@@ -17,7 +17,10 @@ print(my_tuple4.count(3))
 my_tuple5 = ("Java", "Python", "JavaScript", "Python")
 print(my_tuple5.index("Python"))
 # 6. Concatena dos tuplas: (1, 2, 3) y (4, 5, 6) e imprime la tupla resultante.
-
+my_tuple6 = (1,2,3)
+my_tuple7 = (4,5.6)
+my_tuple8 = my_tuple6 + my_tuple7
+print(my_tuple8)
 # 7. Crea una subtupla con los elementos desde la posiciÃ³n 2 hasta la 4 (sin incluir la 4) de la tupla (10, 20, 30, 40, 50).
 
 # 8. Convierte la tupla ("rojo", "verde", "azul") en una lista, cambia el segundo elemento a "amarillo" y vuelve a convertirla en una tupla. Imprime la tupla resultante.
