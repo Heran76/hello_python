@@ -13,8 +13,9 @@ my_tuple3 = (1,2,3)
 my_tuple4 = (1, 2, 3, 3, 4, 5, 3)
 print(my_tuple4.count(3))
 
-# 5. Encuentra el Ã­ndice de la primera apariciÃ³n de la cadena "Python" en la tupla ("Java", "Python", "JavaScript", "Python").
-
+# 5. Encuentra el í­ndice de la primera aparición de la cadena "Python" en la tupla ("Java", "Python", "JavaScript", "Python").
+my_tuple5 = ("Java", "Python", "JavaScript", "Python")
+print(my_tuple5.index("Python"))
 # 6. Concatena dos tuplas: (1, 2, 3) y (4, 5, 6) e imprime la tupla resultante.
 
 # 7. Crea una subtupla con los elementos desde la posiciÃ³n 2 hasta la 4 (sin incluir la 4) de la tupla (10, 20, 30, 40, 50).
