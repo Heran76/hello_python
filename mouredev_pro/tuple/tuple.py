@@ -34,4 +34,6 @@ print(my_modified_tuple)
 # 9. Elimina una tupla llamada my_tuple usando del y luego intenta imprimirla para ver el resultado.
 my_tuple = (1, 2, 3)
 del my_tuple
-# 10. Crea una tupla con un solo elemento (el nÃºmero 100) e imprÃ­mela. AsegÃºrate de usar la sintaxis correcta para crear una tupla con un solo elemento.
+# 10. Crea una tupla con un solo elemento (el número 100) e imprí­mela. Asegurate de usar la sintaxis correcta para crear una tupla con un solo elemento.
+my_tuple = (100, )
+print(my_tuple)
