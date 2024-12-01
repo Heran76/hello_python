@@ -21,8 +21,10 @@ my_tuple6 = (1,2,3)
 my_tuple7 = (4,5.6)
 my_tuple8 = my_tuple6 + my_tuple7
 print(my_tuple8)
-# 7. Crea una subtupla con los elementos desde la posiciÃ³n 2 hasta la 4 (sin incluir la 4) de la tupla (10, 20, 30, 40, 50).
-
+# 7. Crea una subtupla con los elementos desde la posición 2 hasta la 4 (sin incluir la 4) de la tupla (10, 20, 30, 40, 50).
+my_tuple9 = (10, 20, 30, 40, 50)
+my_subtuple = my_tuple9[2:4]
+print(my_subtuple)
 # 8. Convierte la tupla ("rojo", "verde", "azul") en una lista, cambia el segundo elemento a "amarillo" y vuelve a convertirla en una tupla. Imprime la tupla resultante.
 
 # 9. Elimina una tupla llamada my_tuple usando del y luego intenta imprimirla para ver el resultado.
