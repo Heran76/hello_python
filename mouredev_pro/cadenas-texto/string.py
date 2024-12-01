@@ -32,6 +32,7 @@ print(f)
 
 # 6. Extrae un slice de la palabra Programación para obtener los caracteres desde la posición 3 hasta la 7.
 
+
 texto = "Programación"
 text_slice = texto[3:8]
 print(text_slice)
