@@ -8,8 +8,10 @@ my_tuple2 = (100,200,300,400,500)
 print(my_tuple2[1])
 # 3. Intenta modificar el primer elemento de la tupla (1, 2, 3) a 10 y observa el resultado.
 my_tuple3 = (1,2,3)
-my_tuple[0] = 10 # Esto generarÃ¡ un error: TypeError
-# 4. Cuenta cuÃ¡ntas veces aparece el nÃºmero 3 en la tupla (1, 2, 3, 3, 4, 5, 3).
+#my_tuple[0] = 10  Esto generarÃ¡ un error: TypeError
+# 4. Cuenta cuántas veces aparece el número 3 en la tupla (1, 2, 3, 3, 4, 5, 3).
+my_tuple4 = (1, 2, 3, 3, 4, 5, 3)
+print(my_tuple4.count(3))
 
 # 5. Encuentra el Ã­ndice de la primera apariciÃ³n de la cadena "Python" en la tupla ("Java", "Python", "JavaScript", "Python").
 
