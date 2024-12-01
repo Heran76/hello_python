@@ -3,8 +3,9 @@
 my_tuple=(10,20,30,40,50)
 print(my_tuple)
 
-# 2. Accede al segundo elemento de la tupla (100, 200, 300, 400, 500) y muÃ©stralo.
-
+# 2. Accede al segundo elemento de la tupla (100, 200, 300, 400, 500) y muéstralo.
+my_tuple2 = (100,200,300,400,500)
+print(my_tuple2[1])
 # 3. Intenta modificar el primer elemento de la tupla (1, 2, 3) a 10 y observa el resultado.
 
 # 4. Cuenta cuÃ¡ntas veces aparece el nÃºmero 3 en la tupla (1, 2, 3, 3, 4, 5, 3).
