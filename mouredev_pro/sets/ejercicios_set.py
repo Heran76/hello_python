@@ -10,8 +10,11 @@ print(my_set)
 # 3. Intenta añadir el número 5 al set {1, 2, 3, 4, 5} nuevamente. ¿Qué sucede?
 my_set = {1, 2, 3, 4, 5}
 my_set.add(5)
+# Salida: {1, 2, 3, 4, 5} (no cambia porque los sets no admiten duplicados)
+print(my_set)
 
-# 4. Verifica si el nÃºmero 3 estÃ¡ en el set {1, 2, 3, 4, 5} e imprime el resultado.
+# 4. Verifica si el número 3 está en el set {1, 2, 3, 4, 5} e imprime el resultado.
+print(3 in my_set)
 
 # 5. Elimina el nÃºmero 4 del set {1, 2, 3, 4, 5} e imprime el set resultante.
 
