@@ -8,6 +8,7 @@ sets en Python son colecciones no ordenadas y sin elementos duplicados, lo que l
 muy eficientes cuando se trata de realizar busquedas y operaciones entre conjuntos de datos.
 
 '''
+
 my_set = set()
 my_other_set = {}
 
