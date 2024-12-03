@@ -35,5 +35,9 @@ my_set2 = {4, 5, 6}
 my_union_set = my_set1.union(my_set2)
 print(my_union_set)
 # 9. Calcula la diferencia entre los sets {1, 2, 3, 4} y {3, 4, 5, 6} e imprime el resultado.
+my_set1 = {1, 2, 3, 4}
+my_set2 = {3, 4, 5, 6}
+my_difference_set = my_set1.difference(my_set2)
+print(my_difference_set)
 
 # 10. Elimina un set llamado my_set usando del y luego intenta imprimirlo para ver el resultado
