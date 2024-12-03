@@ -20,9 +20,14 @@ print(3 in my_set)
 my_set.remove(4)
 print(my_set)
 
-# 6. Usa el mÃ©todo clear() para vaciar un set y luego imprime su longitud.
+# 6. Usa el método clear() para vaciar un set y luego imprime su longitud.
+my_set.clear()
+print(len(my_set))
 
-# 7. Convierte el set {"manzana", "naranja", "plÃ¡tano"} en una lista e imprime el primer elemento de la lista.
+# 7. Convierte el set {"manzana", "naranja", "plátano"} en una lista e imprime el primer elemento de la lista.
+my_set = {"manzana", "naranja", "plátano"}
+my_set = list(my_set)
+print(my_set[0])
 
 # 8. Realiza la uniÃ³n de dos sets: {1, 2, 3} y {4, 5, 6}, e imprime el set resultante.
 
