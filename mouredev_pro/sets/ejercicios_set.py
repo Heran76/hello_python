@@ -16,7 +16,9 @@ print(my_set)
 # 4. Verifica si el número 3 está en el set {1, 2, 3, 4, 5} e imprime el resultado.
 print(3 in my_set)
 
-# 5. Elimina el nÃºmero 4 del set {1, 2, 3, 4, 5} e imprime el set resultante.
+# 5. Elimina el número 4 del set {1, 2, 3, 4, 5} e imprime el set resultante.
+my_set.remove(4)
+print(my_set)
 
 # 6. Usa el mÃ©todo clear() para vaciar un set y luego imprime su longitud.
 
