@@ -4,8 +4,12 @@ my_set = {1,2,3,4,5}
 print(my_set)
 
 # 2. Añade el número 6 al set {1, 2, 3, 4, 5} e imprí­melo.
-
-# 3. Intenta aÃ±adir el nÃºmero 5 al set {1, 2, 3, 4, 5} nuevamente. Â¿QuÃ© sucede?
+my_set ={1,2,3,4,5}
+my_set.add(6)
+print(my_set)
+# 3. Intenta añadir el número 5 al set {1, 2, 3, 4, 5} nuevamente. ¿Qué sucede?
+my_set = {1, 2, 3, 4, 5}
+my_set.add(5)
 
 # 4. Verifica si el nÃºmero 3 estÃ¡ en el set {1, 2, 3, 4, 5} e imprime el resultado.
 
