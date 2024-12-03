@@ -29,8 +29,11 @@ my_set = {"manzana", "naranja", "plátano"}
 my_set = list(my_set)
 print(my_set[0])
 
-# 8. Realiza la uniÃ³n de dos sets: {1, 2, 3} y {4, 5, 6}, e imprime el set resultante.
-
+# 8. Realiza la unión de dos sets: {1, 2, 3} y {4, 5, 6}, e imprime el set resultante.
+my_set1 = {1, 2, 3}
+my_set2 = {4, 5, 6}
+my_union_set = my_set1.union(my_set2)
+print(my_union_set)
 # 9. Calcula la diferencia entre los sets {1, 2, 3, 4} y {3, 4, 5, 6} e imprime el resultado.
 
 # 10. Elimina un set llamado my_set usando del y luego intenta imprimirlo para ver el resultado
