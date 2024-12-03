@@ -41,3 +41,6 @@ my_difference_set = my_set1.difference(my_set2)
 print(my_difference_set)
 
 # 10. Elimina un set llamado my_set usando del y luego intenta imprimirlo para ver el resultado
+my_set = {1, 2, 3}
+del my_set
+# print(my_set)  # Esto generarÃ¡ un error: NameError
