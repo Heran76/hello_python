@@ -15,7 +15,8 @@ print(my_dictionay)
 del my_dictionay["country"]
 print(my_dictionay)
 # 6. Crea un diccionario donde las claves sean números del 1 al 5 y los valores sean sus cuadrados (ejemplo: 1: 1, 2: 4, ...).
-
+squares = {x: x**2 for x in range(1, 6)}
+print(squares)
 # 7. Verifica si la clave age está presente en el diccionario {"name": "Brais", "age": 37, "country": "Galicia"}.
 
 # 8. Imprime solo las claves del diccionario.
