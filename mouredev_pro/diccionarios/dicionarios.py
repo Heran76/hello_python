@@ -5,3 +5,9 @@ permitiendo acceder a los valores de manera rápida mediante su clave. Esto hace
 sean perfectos para representar datos estructurados, como las entradas de una base de datos o la 
 configuración de una aplicación.
 '''
+my_dict = dict()
+my_other_dict = {}
+
+print(type(my_dict))
+print(type(my_other_dict))
+
