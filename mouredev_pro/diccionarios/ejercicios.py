@@ -25,3 +25,6 @@ print(my_dict.keys())
 # 9. Convierte las claves del diccionario en una lista e imprime la lista resultante.
 print(list(my_dict.keys()))
 # 10. Crea un nuevo diccionario a partir de una lista de claves ["name", "age", "job"] usando fromkeys(), asignando a todas las claves el valor "Desconocido".
+my_keys = ["name", "age", "job"]
+my_new_dict = dict.fromkeys(my_keys, "Desconocido")
+print(my_new_dict)
