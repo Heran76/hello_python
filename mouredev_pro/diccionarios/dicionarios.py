@@ -11,3 +11,5 @@ my_other_dict = {}
 print(type(my_dict))
 print(type(my_other_dict))
 
+my_other_dict ={"name":"Antonio","surname":"heredia","age":48,1:"python"}
+print(my_other_dict)
