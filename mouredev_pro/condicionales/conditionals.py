@@ -8,3 +8,7 @@ dependiendo de si una condición se cumple o no.
 En esta lección, veremos cómo Python evalúa expresiones y ejecuta ciertos bloques de
 código en funciones de esasa condiciones.
 '''
+#if
+my_condition = False
+if my_condition: # es lo mismo que if my_condition == True:
+    print("Se ejecuta la condición if")
