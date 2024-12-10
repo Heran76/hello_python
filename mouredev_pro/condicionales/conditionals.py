@@ -26,7 +26,15 @@ elif my_condition == 25:
 else:
     print("Es mayor o igual que 10 o mayor o igual que 20 o distinto de 25")
 
-print("La ejecución continua")                
+print("La ejecución continua")  
+
+#Condicional con inspección de valor
+
+my_string = "" #una cadena vacia es igual a False
+if not my_string:
+    print("Mi cadena de texto es vacía")
+if my_string == "Mi cadena de textoooooooo":
+    print("Estas cadenas de texto coinciden")                  
     
     
     
