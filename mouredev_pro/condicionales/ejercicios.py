@@ -51,4 +51,13 @@ number = int(input("Introduce un númeromero: "))
 if number % 3 == 0 and number % 5 == 0:
     print(f"{number} es divisible por 3 y por 5")
 else:
-    print(f"{number} no es divisible por 3 y 5 al mismo tiempo")          
+    print(f"{number} no es divisible por 3 y 5 al mismo tiempo") 
+
+# 6. Solicita al usuario que ingrese un número y verifica si es par o impar.
+print("")
+print("****** Ejercicio 6 **********") 
+number = int(input("Introduce un nÃºmero: "))
+if number % 2 == 0:
+    print(f"{number} es par")
+else:
+    print(f"{number} es impar")   
