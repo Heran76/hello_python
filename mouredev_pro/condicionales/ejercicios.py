@@ -80,6 +80,12 @@ if user_password == password:
 else:
     print("ContraseÃ±a incorrecta")
 
+# 9. Escribe un programa que determine si un número está entre 10 y 20 (ambos incluidos).
+number = int(input("Introduce un número: "))
+if 10 <= number <= 20:
+    print(f"{number} está entre 10 y 20")
+else:
+    print(f"{number} no está entre 10 y 20")
 
    
     
