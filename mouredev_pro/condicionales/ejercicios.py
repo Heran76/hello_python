@@ -42,5 +42,13 @@ if num1 > num2 :
 elif num1 < num2 :
     print(f"{num1} es menor que {num2}")
 else:
+    print(f"{num1} es igual a {num2}") 
 
-    print(f"{num1} es igual a {num2}")        
+#5 Escribe un programa que verifique si un número es divisible por 3 y por 5 al mismo tiempo
+print("")
+print("****** Ejercicio 5 **********")
+number = int(input("Introduce un númeromero: "))
+if number % 3 == 0 and number % 5 == 0:
+    print(f"{number} es divisible por 3 y por 5")
+else:
+    print(f"{number} no es divisible por 3 y 5 al mismo tiempo")          
