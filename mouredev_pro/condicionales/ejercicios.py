@@ -19,4 +19,13 @@ age = int(input("Introduce tu edad : "))
 if age >= 18 :
     print("Eres mayor de edad")
 else : 
-    print("Eres menor de edad")    
+    print("Eres menor de edad") 
+
+#3 Escribe un programa que verifique si una cadena de texto está vacia y muestra un mensaje en consecuencia
+print("")
+print("****** Ejercicio 3 **********")
+text = input(input("Introduce una cadena de texto : "))  
+if not text:
+    print("La cadena esta vacía")
+else:
+    print("La cadena no esta vacia")        
