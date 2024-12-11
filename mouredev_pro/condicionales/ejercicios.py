@@ -62,6 +62,9 @@ if number % 2 == 0:
 else:
     print(f"{number} es impar")   
  # 7. Escribe un programa que determine si una persona puede votar en función de su edad(mayor o igual a 18). Si tiene 16 o 17 años, indica que puede votar con permiso especial.
+print("")
+print("****** Ejercicio 7 **********") 
+
 age = int(input("Introduce tu edad: "))
 if age >= 18:
     print("Puedes votar")
@@ -69,5 +72,14 @@ elif 16 <= age < 18:
     print("Puedes votar con permiso especial")
 else:
     print("No puedes votar")
+# 8. Crea un programa que solicite una contraseña al usuario y verifique si coincide con una contraseña predefinida. Si no coincide, muestra un mensaje de error.
+password = "python123"
+user_password = input("Introduce la contraseÃ±a: ")
+if user_password == password:
+    print("Acceso permitido")
+else:
+    print("ContraseÃ±a incorrecta")
+
+
    
     
