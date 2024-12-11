@@ -24,8 +24,23 @@ else :
 #3 Escribe un programa que verifique si una cadena de texto está vacia y muestra un mensaje en consecuencia
 print("")
 print("****** Ejercicio 3 **********")
-text = input(input("Introduce una cadena de texto : "))  
+text = input("Introduce una cadena de texto : ")
+ 
 if not text:
     print("La cadena esta vacía")
 else:
     print("La cadena no esta vacia")        
+#4 Crea un programa que solicite dos números al usuario y compare cual es mayor. si son iguales, muestre un mensaje indicando la igualdad
+print("")
+print("****** Ejercicio 4 **********")
+
+num1 = int(input("Introduce un primer número: "))
+num2 = int(input("introduce un segundo número: "))
+
+if num1 > num2 :
+    print(f"{num1} es mayor que {num2}")
+elif num1 < num2 :
+    print(f"{num1} es menor que {num2}")
+else:
+
+    print(f"{num1} es igual a {num2}")        
