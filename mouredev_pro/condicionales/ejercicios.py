@@ -73,6 +73,9 @@ elif 16 <= age < 18:
 else:
     print("No puedes votar")
 # 8. Crea un programa que solicite una contraseña al usuario y verifique si coincide con una contraseña predefinida. Si no coincide, muestra un mensaje de error.
+print("")
+print("****** Ejercicio 8 **********")
+
 password = "python123"
 user_password = input("Introduce la contraseÃ±a: ")
 if user_password == password:
@@ -81,11 +84,25 @@ else:
     print("ContraseÃ±a incorrecta")
 
 # 9. Escribe un programa que determine si un número está entre 10 y 20 (ambos incluidos).
+print("")
+print("****** Ejercicio 9 **********")
+
 number = int(input("Introduce un número: "))
 if 10 <= number <= 20:
     print(f"{number} está entre 10 y 20")
 else:
     print(f"{number} no está entre 10 y 20")
 
-   
-    
+  # 10. Escribe un programa que simule un semáforo: solicita al usuario que ingrese un color(rojo, amarillo, verde) y muestra un mensaje indicando si debe detenerse, estar alerta o avanzar. 
+print("")
+print("****** Ejercicio 10 **********")
+
+color = input("Introduce un color (rojo, amarillo, verde): ").lower()
+if color == "rojo":
+    print("Detente")
+elif color == "amarillo":
+    print("PrecauciÃ³n")
+elif color == "verde":
+    print("Avanza")
+else:
+    print("Color no vÃ¡lido"
