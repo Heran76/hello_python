@@ -24,4 +24,13 @@ while my_condition < 10:
 else :
     print("Mi condición es mayor o igaul que 10")
 print(" ")
-print("La ejecución continuará")    
+print("La ejecución continuará") 
+print(" ")
+while my_condition < 20:
+    my_condition += 1
+    if my_condition ==15:
+        print("Se detiene la ejecución")
+        break 
+    print(my_condition)
+print(" ")
+print("La ejecución continuará")       
