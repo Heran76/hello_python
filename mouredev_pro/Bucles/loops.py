@@ -15,3 +15,13 @@ la ejecución.
 de datos, como listas, tuplas, sets y diccionarios, Es perfecto para recorrer cada elemento de una
 colección de forma ordenada.
 '''
+
+#while
+my_condition = 0
+while my_condition < 10:
+    print(my_condition)
+    my_condition += 1
+else :
+    print("Mi condición es mayor o igaul que 10")
+print(" ")
+print("La ejecución continuará")    
