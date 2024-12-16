@@ -66,3 +66,12 @@ for number in list:
     if number == 30:
         counter += 1
 print(counter)
+# 10. Usa un bucle for para recorrer una lista de nombres y detener el bucle cuando se encuentre el nombre "Brais".
+print(" ")
+print("***** Ejercicio 10 *****") 
+names = ["Sara", "Brais", "Pedro"]
+for name in names:
+    if name == "Brais":
+        print("Se encontró a Brais")
+        break
+    print(name)
