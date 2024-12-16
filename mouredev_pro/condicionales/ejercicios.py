@@ -105,4 +105,4 @@ elif color == "amarillo":
 elif color == "verde":
     print("Avanza")
 else:
-    print("Color no vÃ¡lido"
+    print("Color no vÃ¡lido")
