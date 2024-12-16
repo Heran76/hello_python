@@ -33,4 +33,17 @@ while my_condition < 20:
         break 
     print(my_condition)
 print(" ")
-print("La ejecución continuará")       
+print("La ejecución continuará") 
+
+#for
+print("")
+print("***** for ********")
+print("")
+my_list = [35, 24, 62, 52, 30, 30, 17]
+
+for element in my_list:
+    print(element)  
+print("")
+print("***** for - tuple ********")
+print("")   
+        
