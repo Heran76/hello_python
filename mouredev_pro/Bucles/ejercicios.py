@@ -21,3 +21,11 @@ while i <= 100:
     sum += i
     i += 1
 print(sum)
+# 4. Escribe un bucle for que imprima cada carácter de la cadena "Python".
+print(" ")
+print("***** Ejercicio 4 *****")
+word = "Python"
+for letter in word:
+    print(letter)
+
+    
