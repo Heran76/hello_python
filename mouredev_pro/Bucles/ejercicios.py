@@ -52,3 +52,8 @@ while i <= 20:
     if i % 2 == 0:
         print(i)
     i += 1
+# 8. Usa un bucle for con la función range() para imprimir los números del 1 al 10 en orden inverso.
+print(" ")
+print("***** Ejercicio 8 *****") 
+for i in range(10, 0, -1):
+    print(i)
