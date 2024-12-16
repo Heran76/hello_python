@@ -57,3 +57,12 @@ print(" ")
 print("***** Ejercicio 8 *****") 
 for i in range(10, 0, -1):
     print(i)
+ # 9. Escribe un programa que use un bucle for para contar cuántas veces aparece el número 30 en la lista[30, 10, 30, 20, 30, 40].
+print(" ")
+print("***** Ejercicio 9 *****") 
+list = [30, 10, 30, 20, 30, 40]
+counter = 0
+for number in list:
+    if number == 30:
+        counter += 1
+print(counter)
