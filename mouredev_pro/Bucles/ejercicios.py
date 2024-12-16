@@ -12,4 +12,12 @@ print("***** Ejercicio 2 *****")
 my_list = [10,20,30,40,50]
 for i in my_list:
         print(i)
-    
+# 3. Escribe un programa que use un bucle while para sumar los números del 1 al 100 e imprime el resultado.
+print(" ")
+print("***** Ejercicio 3 *****")
+i = 1
+sum = 0
+while i <= 100:
+    sum += i
+    i += 1
+print(sum)
