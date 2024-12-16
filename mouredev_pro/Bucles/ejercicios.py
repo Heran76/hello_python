@@ -43,3 +43,12 @@ print("***** Ejercicio 6 *****")
 person = {"name": "Brais", "age": 37, "country": "Galicia"}
 for key in person:
     print(key)   
+
+   # 7. Escribe un programa que use un bucle while para imprimir los números pares entre 1 y 20. 
+print(" ")
+print("***** Ejercicio 7 *****") 
+i = 1
+while i <= 20:
+    if i % 2 == 0:
+        print(i)
+    i += 1
