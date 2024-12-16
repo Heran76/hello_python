@@ -28,4 +28,18 @@ word = "Python"
 for letter in word:
     print(letter)
 
-    
+# 5. Usa un bucle while para encontrar el primer número divisible por 7 entre 1 y 50.
+print(" ")
+print("***** Ejercicio 5 *****")
+i = 1
+while i <= 50:
+    if i % 7 == 0:
+        print(i)
+        break
+    i += 1 
+  # 6. Usa un bucle for para recorrer el diccionario {"name": "Brais", "age": 37, "country": "Galicia"} e imprime las claves.
+print(" ")
+print("***** Ejercicio 6 *****")  
+person = {"name": "Brais", "age": 37, "country": "Galicia"}
+for key in person:
+    print(key)   
