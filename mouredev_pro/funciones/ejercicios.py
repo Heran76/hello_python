@@ -42,3 +42,8 @@ def calculate_average(number1, number2, number3):
     return (number1 + number2 + number3) / 3    
 separador()
 print(calculate_average(2, 4, 6))
+# 9. Crea una funcion llamada "count_characters" que reciba una cadena de texto y retorne el número de caracteres que contiene.
+def count_characters(text):
+    return len(text)    
+separador()
+print(count_characters("Hola"))
