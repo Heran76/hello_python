@@ -22,3 +22,8 @@ def convert_to_uppercase(text):
     return text.upper()
 separador()
 print(convert_to_uppercase("hola"))
+# 5. Crea una función llamada "arbitrary_sum" que reciba un número arbitrario de números como argumentos y retorne la suma de todos ellos.
+def arbitrary_sum(*numbers):
+    return sum(numbers) 
+separador()
+print(arbitrary_sum(1, 2, 3, 4, 5))
