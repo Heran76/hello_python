@@ -37,3 +37,8 @@ def power(base, exponent):
     return base ** exponent
 separador()
 print(power(2, 3))
+# 8. Escribe una función llamada "calculate_average" que reciba tres números y retorne su promedio.
+def calculate_average(number1, number2, number3):
+    return (number1 + number2 + number3) / 3    
+separador()
+print(calculate_average(2, 4, 6))
