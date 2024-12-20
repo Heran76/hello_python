@@ -32,3 +32,8 @@ def generate_full_greeting(name, surname):
     return f"Hola, {name} {surname}" 
 separador()
 print(generate_full_greeting(name="Antonio", surname="Heredia"))
+# 7. Crea una función llamada "power" que reciba dos números: base y exponente, y retorne el resultado de elevar la base al exponente.
+def power(base, exponent):
+    return base ** exponent
+separador()
+print(power(2, 3))
