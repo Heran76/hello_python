@@ -27,3 +27,8 @@ def arbitrary_sum(*numbers):
     return sum(numbers) 
 separador()
 print(arbitrary_sum(1, 2, 3, 4, 5))
+# 6. Escribe una función llamada "generate_full_greeting" que reciba dos argumentos: nombre y apellido, y retorne el saludo completo "Hola, <nombre> <apellido>". Los argumentos deben ser pasados por clave.
+def generate_full_greeting(name, surname):
+    return f"Hola, {name} {surname}" 
+separador()
+print(generate_full_greeting(name="Antonio", surname="Heredia"))
