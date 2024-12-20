@@ -40,3 +40,9 @@ def sum_two_values_with_return(first_values, second_values):
 my_result = sum_two_values_with_return(1.2,5.8)
 separador()
 print(my_result)
+# Función con parámetros de entrada/argumentos por clave
+def print_name(name, surname):
+    print(f"{name} {surname}")
+
+
+print_name(surname="Heredia", name="Antonio")
