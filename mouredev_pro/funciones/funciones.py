@@ -33,7 +33,6 @@ sum_two_values(40,2)
 sum_two_values(10,8)
 sum_two_values(20,4) 
 sum_two_values("5","7") #aqui concatena dos string
-
 #funciones con parámetros de entrada/argumentos y retono
 def sum_two_values_with_return(first_values, second_values):
     my_sum=first_values + second_values
