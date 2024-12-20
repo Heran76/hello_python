@@ -47,3 +47,9 @@ def count_characters(text):
     return len(text)    
 separador()
 print(count_characters("Hola"))
+# 10. Escribe una función llamada "display_messages" que reciba un nÃºmero indefinido de cadenas y las imprima en mayúculas, una por una, tal como se hizo en el archivo proporcionado.
+def display_messages(*texts):
+    for text in texts:
+        print(text.upper()) 
+separador()
+display_messages("Hola", "Python", "Heredia")
