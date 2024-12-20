@@ -17,4 +17,8 @@ def is_even(number):
     return number % 2 == 0
 separador()
 print(is_even(4))
-
+# 4. Escribe una función llamada "convert_to_uppercase" que reciba una cadena de texto y la retorne en mayúsculas.
+def convert_to_uppercase(text):
+    return text.upper()
+separador()
+print(convert_to_uppercase("hola"))
