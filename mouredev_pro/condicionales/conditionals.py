@@ -9,6 +9,7 @@ En esta lección, veremos cómo Python evalúa expresiones y ejecuta ciertos blo
 código en funciones de esasa condiciones.
 '''
 #if
+
 my_condition = True
 if my_condition: # es lo mismo que if my_condition == True:
     print("Se ejecuta la condición if")
