@@ -57,11 +57,9 @@ print_name_with_default("Antonio", "Heredia")
 print_name_with_default("Antonio", "Heredia", "Morante")
 # Función con parámetros de entrada/argumentos arbitrarios
 
-
-def print_upper_texts(*texts):
-    print(type(texts))
-    for text in texts:
-        print(text.upper())
+my_condition = True
+if my_condition: # es lo mismo que if my_condition == True:
+    print("Se ejecuta la condición if")
 
 
 print_upper_texts("Hola", "Python", "Heredia")
