@@ -3,7 +3,6 @@
 # Resta: 50 - 22
 # MultiplicaciÃ³n: 8 * 7
 # DivisiÃ³n: 100 / 20
-
 print(15 + 25)
 print(50 - 22)
 print(8 * 7)
