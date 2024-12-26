@@ -1,3 +1,4 @@
+
 #string - cadena de texto va con comillas para decir donde empieza y termina;
 #no son numeros son caracteres a ir en comillas
 print('100 + 50') 
