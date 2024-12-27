@@ -8,7 +8,7 @@ class Animal:
 
 gato = Animal('Gato')
 print(gato.species)
-gato.make_sound()          
+gato.make_sound()
 
 # 2. Modifica la clase "Animal" para que reciba la especie al crear un objeto y almacénala en una propiedad pública. Añade el método "make_sound" que imprima un sonido dependiendo de la especie.
 class Animal:
@@ -28,7 +28,7 @@ class Animal:
 # Crear objetos de la clase Animal con diferentes especies
 gato = Animal("Gato")
 perro = Animal("perro")
-vaca = Animal("vaca")
+print(f"el {gato.species} hace {gato.make_sound()}")           vaca = Animal("vaca")
 ave = Animal("ave")
 
 # Probar los sonidos
@@ -36,4 +36,3 @@ gato.make_sound()  # Salida: Miau
 perro.make_sound()  # Salida: Guau
 vaca.make_sound()  # Salida: Muu
 ave.make_sound()              
-print(f"el {gato.species} hace {gato.make_sound()}")           
