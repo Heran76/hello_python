@@ -32,7 +32,8 @@ print(f"el {gato.species} hace {gato.make_sound()}")           vaca = Animal("va
 ave = Animal("ave")
 
 # Probar los sonidos
+
 gato.make_sound()  # Salida: Miau
 perro.make_sound()  # Salida: Guau
 vaca.make_sound()  # Salida: Muu
-ave.make_sound()              
+ave.make_sound()          
