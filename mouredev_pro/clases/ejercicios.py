@@ -45,5 +45,16 @@ class Car:
          self.model = model
          self._spedd = 0
          
-         
-         
+# 4. Añade a la clase "Car" un método llamado "accelerate" que aumente la velocidad en 10 unidades. Añade tambien un método "brake" que reduzca la velocidad en 10 unidades. Asegurate de que la velocidad no sea negativa.         
+class Car:
+    def __init__(self,brand,model):
+        self.brand = brand
+        self.model = model
+        self._spedd = 0
+    
+    def acelerate(self):
+        self._spedd += 10
+    
+    def brake(self):
+        self._spedd = max(0,self._spedd -10)        
+                 
