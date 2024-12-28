@@ -50,11 +50,11 @@ class Car:
     def __init__(self,brand,model):
         self.brand = brand
         self.model = model
-        self._spedd = 0
+        self._speed = 0
     
-    def acelerate(self):
-        self._spedd += 10
+    def accelerate(self):
+        self._speed += 10
     
     def brake(self):
-        self._spedd = max(0,self._spedd -10)        
+        self._speed = max(0,self._speed -10)        
                  
