@@ -36,4 +36,14 @@ ave = Animal("ave")
 gato.make_sound()  # Salida: Miau
 perro.make_sound()  # Salida: Guau
 vaca.make_sound()  # Salida: Muu
-ave.make_sound()          
+ave.make_sound()  
+
+# 3. Crea una clase llamada "Car" con las propiedades públicas "brand" y "model". Además, debe tener una propiedad privada "_speed" que inicialmente sea 0.        
+class Car:
+     def __init__(self,brand,model):
+         self.brand = brand
+         self.model = model
+         self._spedd = 0
+         
+         
+         
