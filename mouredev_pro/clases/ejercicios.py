@@ -56,5 +56,15 @@ class Car:
         self._speed += 10
     
     def brake(self):
-        self._speed = max(0,self._speed -10)        
-                 
+        self._speed = max(0,self._speed -10) 
+
+# 5. Crea una clase "Book" que tenga propiedades como "title" (público) y "author" (privado). Añade un método para obtener el autor y otro para cambiar el tí­tulo del libro.        
+class Book:
+    def __init__(self,title,author):
+        self.title = title
+        self.__author = author
+    def get_author(self):
+        return self.__author    
+                      
+    def change_title(self, new_title):
+        self.title = new_title             
