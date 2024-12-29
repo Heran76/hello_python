@@ -92,4 +92,14 @@ class BankAccount:
         else:
             print("Saldo insuficiente")             
     
-    
+  # 8. Crea una clase "Point" que represente un punto en el espacio 2D con coordenadas "x" e "y". Añade un método que calcule la distancia entre dos puntos.
+
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def calculate_distance(self, other_point):
+        distance_x = abs(self.x - other_point.x)
+        distance_y = abs(self.y - other_point.y)
+        return (distance_x ** 2 + distance_y ** 2) ** 0.5  
