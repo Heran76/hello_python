@@ -78,3 +78,18 @@ class Estudiante:
         self.notas = notas
     def calculate_average(self):
         return sum(self.notas)/ len(self.grades)
+# 7. Crea una clase "BankAccount" con propiedades como "owner" y "balance". Añade métodos para depositar y retirar dinero, asegurándote de que no se pueda retirar más de lo que hay en la cuenta.
+
+class BankAccount:
+    def __init__(self, owner, balance): 
+        self.owner = owner 
+        self.balance = balance
+    def depossit(self, amount):
+        self.balance += amount
+    def withdraw(self, amount):
+        if amount <= self.balance:
+            self.balance -= amount
+        else:
+            print("Saldo insuficiente")             
+    
+    
