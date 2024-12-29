@@ -103,3 +103,14 @@ class Point:
         distance_x = abs(self.x - other_point.x)
         distance_y = abs(self.y - other_point.y)
         return (distance_x ** 2 + distance_y ** 2) ** 0.5  
+    
+# 9. Crea una clase "Employee" que tenga propiedades como "name", "hourly_wage" (pago por hora) y "hours_worked". Añade un método que calcule el pago total basado en las horas trabajadas y el salario por hora.
+
+class Employee:
+    def __init__(self, name, hourly_wage, hours_worked):
+        self.name = name
+        self.hourly_wage = hourly_wage
+        self.hours_worked = hours_worked
+
+    def calculate_total_pay(self):
+        return self.hourly_wage * self.hours_worked
