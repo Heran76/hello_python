@@ -114,3 +114,15 @@ class Employee:
 
     def calculate_total_pay(self):
         return self.hourly_wage * self.hours_worked
+# 10. Crea una clase "Store" que tenga una propiedad "inventory" (una lista de productos). Añade un método para agregar un producto al inventario y otro para mostrar todos los productos disponibles.
+
+class Store:
+    def __init__(self):
+        self.inventory = []
+
+    def add_product(self, product):
+        self.inventory.append(product)
+
+    def show_inventory(self):
+        for product in self.inventory:
+            print(product)  
