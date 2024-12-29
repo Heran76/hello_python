@@ -28,7 +28,8 @@ class Animal:
 # Crear objetos de la clase Animal con diferentes especies
 gato = Animal("Gato")
 perro = Animal("perro")
-print(f"el {gato.species} hace {gato.make_sound()}")           vaca = Animal("vaca")
+print(f"el {gato.species} hace {gato.make_sound()}")           
+vaca = Animal("vaca")
 ave = Animal("ave")
 
 # Probar los sonidos
