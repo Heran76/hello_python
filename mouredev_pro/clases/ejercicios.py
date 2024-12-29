@@ -68,3 +68,13 @@ class Book:
                       
     def change_title(self, new_title):
         self.title = new_title             
+    
+    # 6. Crea una clase "Estudiante" que tenga como propiedades su nombre, apellido y una lista de notas. Añade un método para calcular y devolver la nota media del estudiante. 
+   
+class Estudiante:
+    def __init__(self,nombre,apellido,notas):
+        self.nombre = nombre
+        self.apellido = apellido
+        self.notas = notas
+    def calculate_average(self):
+        return sum(self.notas)/ len(self.grades)
