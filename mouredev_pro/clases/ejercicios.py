@@ -123,7 +123,6 @@ class Store:
 
     def add_product(self, product):
         self.inventory.append(product)
-
     def show_inventory(self):
         for product in self.inventory:
             print(product)  
