@@ -88,6 +88,17 @@ def convert_list_to_integers(string_list):
     for string in string_list:
         try:
             integers.append(int(string))
+            
         except ValueError:
             print(f"Error: '{string}' no se puede transformar en un entero.")
     return integers             
+# 10. Crea una función que calcule la raí­z cuadrada de un número. Lanza un ValueError si el número es negativo.
+
+def calculate_square_root(number):
+    try:
+        if number < 0:
+            raise ValueError(
+                "No se puede calcular la raÃ­z cuadrada de un nÃºmero negativo.")
+        return number ** 0.5
+    except ValueError as e:
+        print(f"Error: {e}")
