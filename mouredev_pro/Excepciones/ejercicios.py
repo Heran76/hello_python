@@ -80,4 +80,14 @@ def simulate_transaction(balance, withdrawal_amount):
         balance -= withdrawal_amount
         print(f"Transacción realizada correctamente. Nuevo saldo: {balance}")
     except InsufficientFundsError as e:
-        print(f"Error: {e}")        
+        print(f"Error: {e}")  
+ # 9. Crea una función que intente convertir una lista de cadenas en enteros. Maneja cualquier error que surja cuando una cadena no pueda convertirse.
+
+def convert_list_to_integers(string_list):
+    integers = []
+    for string in string_list:
+        try:
+            integers.append(int(string))
+        except ValueError:
+            print(f"Error: '{string}' no se puede transformar en un entero.")
+    return integers             
