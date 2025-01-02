@@ -14,4 +14,14 @@ def convert_to_integer(string):
         return int(string)
     except ValueError:
         print("Error: No se puede transformar a entero.")
+# 3. Crea una función que abra un archivo, lea su contenido y maneje posibles errores (por ejemplo, archivo no encontrado). Usa try-except para gestionar las operaciones de archivos de forma segura.
+
+def read_file(filename):
+    try:
+        with open(filename, 'r') as file:
+            content = file.read()
+            print(content)
+    except FileNotFoundError:
+        print("Error: Fichero no encontrado.")        
+        
       
