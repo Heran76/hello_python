@@ -47,4 +47,10 @@ def ask_age():
         return age
     except ValueError as e:
         print(f"Error: {e}")    
-      
+  # 6. Crea una función que intente acceder a un elemento de una lista por í­ndice. Usa try-except para manejar el caso donde el índice está fuera de rango.
+
+def access_list_element(list, index):
+    try:
+        return list[index]
+    except IndexError:
+        print("Error: Ãndice fuera de rango.")    
