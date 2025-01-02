@@ -23,5 +23,18 @@ def read_file(filename):
             print(content)
     except FileNotFoundError:
         print("Error: Fichero no encontrado.")        
-        
+ # 4. Crea una función que realice múltiples operaciones (suma, resta, divisiÃ³n, multiplicación) con dos números. Usa try-except-else-finally para manejar errores y asegurar que se imprima un mensaje final, independientemente de los errores.
+
+def perform_operations(num1, num2):
+    try:
+        print(f"Suma: {num1 + num2}")
+        print(f"Resta: {num1 - num2}")
+        print(f"MultiplicaciÃ³n: {num1 * num2}")
+        print(f"DivisiÃ³n: {num1 / num2}")
+    except ZeroDivisionError:
+        print("Error: No se puede dividir entre cero.")
+    else:
+        print("Operaciones realizadas correctamente.")
+    finally:
+        print("Fin de las operaciones.")       
       
