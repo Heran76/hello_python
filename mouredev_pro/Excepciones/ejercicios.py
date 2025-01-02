@@ -53,4 +53,16 @@ def access_list_element(list, index):
     try:
         return list[index]
     except IndexError:
-        print("Error: Ãndice fuera de rango.")    
+        print("Error: índice fuera de rango.") 
+# 7. Crea una función que use try-except para manejar múltiples excepciones: ZeroDivisionError, ValueError y TypeError.
+
+def handle_multiple_exceptions(num1, num2):
+    try:
+        result = num1 / num2
+        print(f"Result: {result}")
+    except ZeroDivisionError:
+        print("Error: No se puede dividir entre cero.")
+    except ValueError:
+        print("Error: Valor invÃ¡lido.")
+    except TypeError:
+        print("Error: Tipo no compatible.")           
