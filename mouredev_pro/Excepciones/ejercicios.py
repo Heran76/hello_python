@@ -36,5 +36,15 @@ def perform_operations(num1, num2):
     else:
         print("Operaciones realizadas correctamente.")
     finally:
-        print("Fin de las operaciones.")       
+        print("Fin de las operaciones.")
+# 5. Crea una función que le pida al usuario su edad y lance un ValueError si la entrada no es un número entero positivo. Usa el manejo de excepciones para gestionar la entrada y lanzar excepciones personalizadas cuando sea necesario.
+
+def ask_age():
+    try:
+        age = int(input("Introduce tu edad: "))
+        if age <= 0:
+            raise ValueError("La edad debe ser un entero positivo.")
+        return age
+    except ValueError as e:
+        print(f"Error: {e}")    
       
