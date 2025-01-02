@@ -66,3 +66,18 @@ def handle_multiple_exceptions(num1, num2):
         print("Error: Valor invÃ¡lido.")
     except TypeError:
         print("Error: Tipo no compatible.")           
+# 8. Crea una función que simule una transacción. Lanza una excepción personalizada llamada InsufficientFundsError si el saldo es menor que la cantidad a retirar.
+
+class InsufficientFundsError(Exception):
+    pass
+
+
+def simulate_transaction(balance, withdrawal_amount):
+    try:
+        if withdrawal_amount > balance:
+            raise InsufficientFundsError(
+                "Saldo insuficiente para la transacciÃ³n.")
+        balance -= withdrawal_amount
+        print(f"Transacción realizada correctamente. Nuevo saldo: {balance}")
+    except InsufficientFundsError as e:
+        print(f"Error: {e}")        
