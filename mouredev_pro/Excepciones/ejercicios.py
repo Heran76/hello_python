@@ -7,3 +7,11 @@ def divide_numbers(num1, num2):
         print(f"El resultado es {result}")
     except ZeroDivisionError:
         print("Error: No se puede dividir entre cero.")
+# 2. Crea una función que tome una cadena e intente convertirla en un número entero. Usa try-except para capturar cualquier error en la conversión.
+
+def convert_to_integer(string):
+    try:
+        return int(string)
+    except ValueError:
+        print("Error: No se puede transformar a entero.")
+      
