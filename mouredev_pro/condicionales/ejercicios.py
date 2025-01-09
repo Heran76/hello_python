@@ -1,5 +1,6 @@
 # Ejercicios Condicionales
 # 1. Escribe un programa que verifique si un número es positivo, negativo o cero.
+
 print("")
 print("****** Ejercicio 1 **********")
 number = int(input("Introduce un número : ")) 
