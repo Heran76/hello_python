@@ -1,3 +1,7 @@
+#Manejo de Fechas (Dates) en Python
+#En Python, el manejo de fechas y tiempos se realiza principalmente con los módulos datetime y date de la biblioteca estándar.
+#Módulo datetime
+#El módulo datetime es el más utilizado para trabajar con fechas y tiempos:
 from datetime import date, time, datetime, timedelta
 
 # 1. Crea una variable con la fecha y hora actual.
