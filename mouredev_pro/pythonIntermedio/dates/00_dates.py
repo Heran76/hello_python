@@ -71,9 +71,7 @@ dates = [
     datetime(2020, 1, 15),
     datetime(2023, 12, 31),
 ]
-
 sorted_dates = sorted(dates)
-
 
 for f in sorted_dates:
     print(f)
