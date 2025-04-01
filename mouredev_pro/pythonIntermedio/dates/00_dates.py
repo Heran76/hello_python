@@ -65,7 +65,6 @@ else:
     print("date2 es anterior")
 
 # 10. Crea una lista con varias fechas y ordÃ©nalas cronolÃ³gicamente.
-
 dates = [
     datetime(2022, 5, 1),
     datetime(2020, 1, 15),
