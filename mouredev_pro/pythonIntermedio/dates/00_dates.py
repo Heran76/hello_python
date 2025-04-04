@@ -6,6 +6,7 @@ from datetime import date, time, datetime, timedelta
 
 # 1. Crea una variable con la fecha y hora actual.
 
+
 now = datetime.now()
 print(now)
 
