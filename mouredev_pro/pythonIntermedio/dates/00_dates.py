@@ -5,14 +5,12 @@
 from datetime import date, time, datetime, timedelta
 
 # 1. Crea una variable con la fecha y hora actual.
-
 now = datetime.now()
 print(now)
 # 2. Imprime solo el aÃ±o, mes y dÃ­a de la fecha actual.
 print(now.year)
 print(now.month)
 print(now.day)
-
 # 3. Crea una fecha especÃ­fica: 25 de diciembre de 2025 y muÃ©strala.
 
 christmas = datetime(2025, 12, 25)
