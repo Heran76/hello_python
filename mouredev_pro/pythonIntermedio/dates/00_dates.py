@@ -13,6 +13,7 @@ print(now.month)
 print(now.day)
 # 3. Crea una fecha especÃ­fica: 25 de diciembre de 2025 y muÃ©strala.
 
+
 christmas = datetime(2025, 12, 25)
 print(christmas)
 
