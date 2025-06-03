@@ -9,7 +9,11 @@ print("Mi nombre es Antonio y tengo", 37, "años")
 '''Usa la función type() para imprimir el tipo de dato de 
 una cadena de texto, un número entero y un número 
 decimal.'''
+#Imprime el resultado de concatenar dos cadenas de texto, 
+#por ejemplo: "Hola" y "Mundo
 
 print(type("Antonio"))
 print(type(48))
 print(type(48.5))
+
+print("Hola"+" "+"Mundo")
