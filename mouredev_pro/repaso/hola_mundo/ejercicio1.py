@@ -17,3 +17,10 @@ print(type(48))
 print(type(48.5))
 
 print("Hola"+" "+"Mundo")
+
+#7. Crea una variable para almacenar tu nombre, otra para tu 
+#edad, e imprime ambas en la misma línea
+print("****Ejercicio7****")
+nombre = "Antonio"
+edad = 48
+print(nombre + " ",edad)
