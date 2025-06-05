@@ -24,3 +24,9 @@ print("****Ejercicio7****")
 nombre = "Antonio"
 edad = 48
 print(nombre + " ",edad)
+
+#8Escribe un programa que solicite al usuario su nombre y 
+#lo imprima junto con un saludo
+
+name = input("Escribe tu nombre : ")
+print("Hola"+" ",name,"¿Qué tal estas?")
