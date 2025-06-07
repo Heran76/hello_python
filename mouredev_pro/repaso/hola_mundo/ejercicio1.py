@@ -30,3 +30,11 @@ print(nombre + " ",edad)
 
 name = input("Escribe tu nombre : ")
 print("Hola"+" ",name,"¿Qué tal estas?")
+
+# Usa print() para mostrar el resultado de la suma de dos 
+#números enteros y el tipo de dato resultante
+
+num1 = 40
+num2 = 2
+suma = num1 + num2
+print(suma , type(suma));
