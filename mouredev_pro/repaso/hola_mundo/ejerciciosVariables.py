@@ -10,3 +10,7 @@ height=1.85
 print(names)
 print(age)
 print(height)
+
+# Convierte la variable edad de entero a cadena y 
+#concatenala con un texto que diga cuántos años tienes
+print("tengo "+str(age)+" años")
