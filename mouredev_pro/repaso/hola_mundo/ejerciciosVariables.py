@@ -1,3 +1,5 @@
+import sys
+import time
 '''Declara y asigna valores a las siguientes variables: 
 name: una cadena que contenga tu nombre. 
 age: un número entero que represente tu edad. 
@@ -38,3 +40,13 @@ estos valores.
 '''
 name, surname, city = "Antonio", "heredia", "huesa"
 print(name, surname, city)
+
+'''
+Usa la función input() para solicitar al usuario su 
+color favorito y almacénalo en una variable color. 
+Luego, imprime el valor ingresado.
+
+'''
+
+color = input("Escribe tu color favorito")
+print("mi color faborito es : ", color)
