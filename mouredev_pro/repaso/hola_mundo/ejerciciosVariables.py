@@ -50,3 +50,14 @@ Luego, imprime el valor ingresado.
 
 color = input("Escribe tu color favorito")
 print("mi color faborito es : ", color)
+
+'''
+ Declara una variable fruit e inicialízala con un valor. 
+Luego, cambia el valor de la fruta a otro diferente y 
+vuelve a imprimirla.
+
+'''
+fruit = "naranja"
+print(fruit)
+fruit = 'fresa'
+print(fruit)
