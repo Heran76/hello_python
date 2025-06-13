@@ -61,3 +61,11 @@ fruit = "naranja"
 print(fruit)
 fruit = 'fresa'
 print(fruit)
+
+'''
+Convierte un número decimal, almacenado en la variable 
+price, a un número entero y luego imprímelo.
+'''
+print("*****Número entero******")
+price = 48.72
+print(int(price))
