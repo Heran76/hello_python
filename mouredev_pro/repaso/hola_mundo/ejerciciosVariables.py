@@ -69,3 +69,12 @@ price, a un número entero y luego imprímelo.
 print("*****Número entero******")
 price = 48.72
 print(int(price))
+'''
+Declara una variable llamada address_len y almacena en 
+ella la cantidad de caracteres de una dirección usando 
+la función len(). Imprime el resultado.
+'''
+print("****Len()****")
+address = "Calle Palas de rey"
+address_len = len(address)
+print(address_len)
