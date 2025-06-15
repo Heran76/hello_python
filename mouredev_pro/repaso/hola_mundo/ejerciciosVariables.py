@@ -78,3 +78,14 @@ print("****Len()****")
 address = "Calle Palas de rey"
 address_len = len(address)
 print(address_len)
+
+'''
+10. Usa un tipo de dato forzado para declarar una 
+variable phone, asegurándote de que siempre será un 
+número. Luego, cambia su valor a un número diferente y 
+verifica el tipo de la variable con type(). 
+'''
+phone: int = 123456789
+print(type(phone))
+phone = 600956956
+print(type(phone))
