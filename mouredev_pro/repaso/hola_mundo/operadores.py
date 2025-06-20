@@ -22,3 +22,11 @@ almacénalo en una variable remainder. Luego imprímelo.
 print("*****ejecicio2*****")
 remainder = 37%5
 print(remainder)
+
+'''
+Convierte el número 7 en una cadena de texto y 
+concaténalo con la frase “ es mi número favorito”. 
+Imprime el resultado.
+'''
+numero = 7
+print("es mi numero favorito",str(numero))
