@@ -30,3 +30,10 @@ Imprime el resultado.
 '''
 numero = 7
 print("es mi numero favorito",str(numero))
+
+'''
+Repite la palabra “Python” 10 veces usando el operador 
+de multiplicación para cadenas y luego imprímela.
+'''
+word = "python ,"*10
+print(word)
