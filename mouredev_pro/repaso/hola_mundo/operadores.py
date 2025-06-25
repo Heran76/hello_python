@@ -37,3 +37,14 @@ de multiplicación para cadenas y luego imprímela.
 '''
 word = "python ,"*10
 print(word)
+
+'''
+5. Crea dos variables: a y b con los valores 12 y 8 
+respectivamente. Compara si a es mayor que b y almacena 
+el resultado en una variable booleana resultado. Imprime 
+el valor de resultado.
+'''
+a = 12
+b = 8
+result = a > b
+print(result)
