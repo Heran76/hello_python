@@ -48,3 +48,11 @@ a = 12
 b = 8
 result = a > b
 print(result)
+'''
+Compara dos cadenas de texto (“apple” y “banana”) usando 
+los operadores > y < y explica cuál tiene mayor orden 
+alfabético
+
+'''
+print("apple" > "banana")
+print("apple" < "banana")
