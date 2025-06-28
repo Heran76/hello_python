@@ -56,3 +56,11 @@ alfabético
 '''
 print("apple" > "banana")
 print("apple" < "banana")
+
+'''
+7. Realiza una comparación lógica usando and para verificar 
+si el número 10 es mayor que 5 y menor que 20. Imprime 
+el resultado.
+'''
+
+print(10 > 5 and 10 < 20)
