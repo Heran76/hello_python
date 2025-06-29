@@ -64,3 +64,9 @@ el resultado.
 '''
 
 print(10 > 5 and 10 < 20)
+
+'''
+Usa el operador or para verificar si el número 7 es 
+menor que 3 o mayor que 5. Imprime el resultado
+'''
+print(7 <3 or 7>5)
