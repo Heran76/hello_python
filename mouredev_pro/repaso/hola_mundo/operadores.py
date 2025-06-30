@@ -70,3 +70,8 @@ Usa el operador or para verificar si el número 7 es
 menor que 3 o mayor que 5. Imprime el resultado
 '''
 print(7 <3 or 7>5)
+
+'''
+# 9. Aplica el operador not para invertir el resultado de la comparaciÃ³n 15 > 20. Â¿CuÃ¡l es el resultado?
+'''
+print(not (15 > 20))
