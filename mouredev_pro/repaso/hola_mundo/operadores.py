@@ -75,3 +75,11 @@ print(7 <3 or 7>5)
 # 9. Aplica el operador not para invertir el resultado de la comparaciÃ³n 15 > 20. Â¿CuÃ¡l es el resultado?
 '''
 print(not (15 > 20))
+
+'''
+10. Combina operadores aritméticos y lógicos: Verifica 
+si el número resultante de la expresión (5 * 3) + 2 es 
+mayor que 10 y menor que 20. Imprime el resultado
+'''
+print((5 * 3) + 2 > 10 and (5 * 3) + 2 < 20)
+
