@@ -4,3 +4,12 @@ len()
 '''
 text="Aprendiendo"
 print (len(text))
+
+'''
+2. Concatena dos cadenas: “Hola” y “Python”, y muestra el 
+resultado en una sola línea
+'''
+cadena1 = "Hola "
+cadena2 = "Python"
+
+print(cadena1+cadena2)
