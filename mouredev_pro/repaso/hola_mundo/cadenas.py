@@ -20,3 +20,12 @@ imprímela para ver el resultado.
 '''
 text = "Esta es una caracola \n y esto es otra"
 print(text)
+
+'''
+4. Usa el formateo de cadenas con f-strings para imprimir 
+tu nombre, apellido y edad en una cadena de texto.
+'''
+name = "Antonio"
+surname = "Heredia"
+age = 49
+print(f"Mi nombre es {name} {surname} y tengo {age} años")
