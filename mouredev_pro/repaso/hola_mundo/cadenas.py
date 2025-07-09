@@ -29,3 +29,17 @@ name = "Antonio"
 surname = "Heredia"
 age = 49
 print(f"Mi nombre es {name} {surname} y tengo {age} años")
+
+'''
+5. Desempaqueta los caracteres de la palabra “Python” en 
+variables separadas y luego imprímelos uno por uno.
+
+'''
+palabra = "Python"
+a, b, c, d, e, f = palabra
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
