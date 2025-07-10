@@ -43,3 +43,7 @@ print(c)
 print(d)
 print(e)
 print(f)
+'''
+Extrae un “slice” de la palabra “Programación” para 
+obtener los caracteres desde la posición 3 hasta la 7. 
+'''
