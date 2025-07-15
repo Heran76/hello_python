@@ -28,7 +28,7 @@ tu nombre, apellido y edad en una cadena de texto.
 name = "Antonio"
 surname = "Heredia"
 age = 49
-print(f"Mi nombre es {name} {surname} y tengo {age} años")
+print(f"Mi nombre es {name} {surname}  tengo {age} años")
 
 '''
 5. Desempaqueta los caracteres de la palabra “Python” en 
