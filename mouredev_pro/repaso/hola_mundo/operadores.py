@@ -83,3 +83,6 @@ mayor que 10 y menor que 20. Imprime el resultado
 '''
 print((5 * 3) + 2 > 10 and (5 * 3) + 2 < 20)
 
+
+"7. Invierte la cadena “Python” usando slicing y muestra el resultado."
+
