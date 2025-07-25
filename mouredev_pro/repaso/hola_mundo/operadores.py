@@ -85,4 +85,6 @@ print((5 * 3) + 2 > 10 and (5 * 3) + 2 < 20)
 
 
 "7. Invierte la cadena “Python” usando slicing y muestra el resultado."
-
+cadena = "Python"
+cadena_invertida = cadena[::-1]
+print(cadena_invertida)
